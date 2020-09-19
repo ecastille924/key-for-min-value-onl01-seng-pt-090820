@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
     lowest word = nil 
   if lowest_value == 0 || value < lowest_value
       lowest_value = value 
-      lowest_key = key
+      lowest_word = word
     end
   end
-  lowest key 
+  lowest_word
 end
