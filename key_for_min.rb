@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   key_for_min_value.each do |word, value|
-    lowest value = 0
-    lowest word = nil 
+    lowest_value = 0
+    lowest_word = nil 
   if lowest_value == 0 || value < lowest_value
       lowest_value = value 
       lowest_word = word
